@@ -10,6 +10,12 @@ To install these requirements most conveniently, you can use the `requirements.t
 pip install -r requirements.txt
 ```
 
+Alternatively, you can install it via the GitHub URL as follows:
+
+```bash
+pip install -r https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/requirements.txt
+```
+
 
 Then, after completing the installation, please check if all the packages are installed and are up to date using
 
@@ -41,7 +47,7 @@ In this case, you may want to use `watermark` to check if you opened the Jupyter
 PyTorch can be installed just like any other Python library or package using pip. For example:
 
 ```bash
-pip install torch==2.0.1
+pip install torch
 ```
 
 However, since PyTorch is a comprehensive library featuring CPU- and GPU-compatible codes, the installation may require additional settings and explanation (see the *A.1.3 Installing PyTorch in the book for more information*).
@@ -50,7 +56,7 @@ It's also highly recommended to consult the installation guide menu on the offic
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/setup/02_installing-python-libraries/pytorch-installer.jpg" width="600px">
 
-
+<br>
 
 ---
 
